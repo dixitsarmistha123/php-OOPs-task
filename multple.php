@@ -14,6 +14,15 @@ instead of classes, we can implement it.
 Traits (Using Class along with Traits): The trait is a type of class which enables multiple
 inheritance. Classes, case classes, objects,and traits can all extend no more than one class
 but can extend multiple traits at the same time.
+---------------------------------------------------------
+Namespaces-
+-----------
+In the PHP world, namespaces are designed to solve
+two problems that authors of libraries and applications encounter 
+when creating re-usable code elements such as classes or functions:
+
+Name collisions between code you create, and internal
+PHP classes/functions/constants or third-party classes/functions/constants.
 */
 require 'injection.php';
 require 'interface.php';
